@@ -18,10 +18,10 @@ params, grads = {},{}
 
 # 定义优化器需要的参数字典和梯度字典
 optimizers = OrderedDict()
-optimizers['SGD'] = SGD(lr = 0.1)
-optimizers['AdaGrad'] = AdaGrad(lr = 0.1)
-optimizers['Momentum'] = Momentum(lr = 0.1)
-optimizers['Adam'] = Adam(lr = 0.1)
+optimizers['SGD'] = SGD(lr = 0.9)
+optimizers['AdaGrad'] = AdaGrad(lr = 1.5)
+optimizers['Momentum'] = Momentum(lr = 0.11,momentum=0.85)
+optimizers['Adam'] = Adam(lr = 0.5,beta1= 0.5)
 
 # 定义子图序列
 idx = 1
