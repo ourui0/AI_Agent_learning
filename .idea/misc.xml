@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="D:\Miniconda" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="D:\Miniconda" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="SSH (sftp://ourui@10.48.5.46:22/data/ourui/torch_env/bin/python)" project-jdk-type="Python SDK" />
 </project>
